@@ -7,7 +7,7 @@ import javafx.scene.control.TextField;
 
 public class Controller {
     @FXML
-    private Button plus, minus, multi, div;
+    private Button plus1, minus, multi, div;
     @FXML
     private TextField text1, text2;
     @FXML
