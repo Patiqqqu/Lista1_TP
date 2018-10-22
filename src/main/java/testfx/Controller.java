@@ -18,14 +18,14 @@ public class Controller {
         text2.clear();
     }
 
-    @FXML
-    final void addition() {
+
+    void addition() {
         textresult.setText(String.valueOf((Double.parseDouble(text1.getText())) + (Double.parseDouble(text2.getText()))));
         clearfields();
     }
 
     @FXML
-    final void subtraction() {
+    void subtraction() {
         textresult.setText(String.valueOf((Double.parseDouble(text1.getText())) - (Double.parseDouble(text2.getText()))));
         clearfields();
     }
